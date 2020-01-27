@@ -1,0 +1,69 @@
+/* Every individual box is a different color */
+body {
+  background: whitesmoke;
+}
+
+.jumbotron {
+  background: chocolate;
+  position: relative;
+  top: 0;
+}
+
+.navbar {
+  position: absolute;
+  margin: 0% 50%;
+}
+
+.images {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.panel-body {
+  background: chocolate;
+  position: relative;
+}
+
+.company {
+  background: whitesmoke;
+  position: relative;
+}
+
+footer {
+  background: red;
+  position: relative;
+  bottom: 0;
+}
+
+
+
+
+
+/*Media Query for when webpage is shrunk*/
+@media (max-width: 480px) {
+  .jumbotron {
+    visibility: visible;
+  }
+
+  .images {
+    visibility: visible;
+  }
+
+  .panel-body {
+    visibility: visible;
+  }
+
+  .company {
+    visibility: visible;
+  }
+
+  footer {
+    visibility: visible;
+  }
+}
+
+
+
+  
+   
+ 
